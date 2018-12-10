@@ -1,23 +1,23 @@
 package ie.gmit.sw;
 
-import java.io.Serializable; 
+import java.io.Serializable;
 
 public class Booking implements Serializable {
 
 	private static final long serialVersionUID = 1l;
-	
+
 	private Vehicle vehicle;
 	private Cx cx;
-	
+
 	public Booking() {
-		
+
 	}
-	
-	public Booking(Vehicle vehicle,Cx cx) {
+
+	public Booking(Vehicle vehicle, Cx cx) {
 		super();
-		this.vehicle =vehicle;
+		this.vehicle = vehicle;
 		this.cx = cx;
-		
+
 	}
 
 	public Vehicle getVehicle() {
@@ -35,6 +35,5 @@ public class Booking implements Serializable {
 	public void setCx(Cx cx) {
 		this.cx = cx;
 	}
-	
-	
+
 }

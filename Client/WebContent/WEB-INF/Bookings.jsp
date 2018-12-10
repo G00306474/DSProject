@@ -67,15 +67,13 @@ tr:nth-child(even) {
 </body>
 
 <SCRIPT>
-        function update()
-        {
-        	window.alert("Updated");
-        } 
-        
-        function del()
-        {
-        	window.alert("Deleted");
-        } 
-    </SCRIPT>
+	function update() {
+		window.alert("Updated");
+	}
+
+	function del() {
+		window.alert("Deleted");
+	}
+</SCRIPT>
 
 </html>
